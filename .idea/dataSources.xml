@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="tennis_rackets@localhost" uuid="d2a53488-238a-4bc3-9396-62acd2890e79">
+    <data-source source="LOCAL" name="PizzialoDB@localhost" uuid="b3cc0ed9-4a54-4d8a-a3e3-d095f31ece5a">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/tennis_rackets</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/PizzialoDB</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
