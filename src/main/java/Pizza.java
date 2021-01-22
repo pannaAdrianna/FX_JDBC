@@ -9,7 +9,7 @@ public class Pizza {
     private StringProperty name;
     private List<Ingredient> ingredients; // Ingredient zmnienic na IngredientName, zrobic klase Ingredient
     private DoubleProperty pricePLN;
-    private List<Ingredient> extra_ingredients;
+    private List<Ingredient> extra_ingredients; // Domyślnie wyzerowane?
     private List<PizzaType> type;
     private Enum<PizzaDiameter> size;
 
@@ -51,7 +51,7 @@ public class Pizza {
         return ingredients;
     }
 
-    public void setIngredients(List<Ingredient> ingredients) {
+    public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
 
