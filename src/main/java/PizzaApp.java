@@ -6,15 +6,14 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class RacketApp extends Application {
-
+public class PizzaApp extends Application {
     private static Scene scene;
 
     @Override
     public void start(Stage stage) throws Exception {
         scene = new Scene(loadFXML("dbFX"), 800, 600);
         stage.setScene(scene);
-        stage.setTitle("Racket App");
+        stage.setTitle("Joey's Pizza");
         stage.show();
     }
 
@@ -23,10 +22,11 @@ public class RacketApp extends Application {
     }
 
     private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(RacketApp.class.getResource(fxml + ".fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(PizzaApp.class.getResource(fxml + ".fxml"));
         return fxmlLoader.load();
     }
 
     public static void main(String[] args) { launch();
     }
+
 }
